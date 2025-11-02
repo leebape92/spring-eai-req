@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.example.demo.domain.order.dto.UserDTO;
+import com.example.demo.domain.order.dto.OrderDTO;
 
 @Mapper
-public interface UserMapper {
-    List<UserDTO> getAllUsers();
+public interface OrderMapper {
+    List<OrderDTO> getAllUsers();
 }

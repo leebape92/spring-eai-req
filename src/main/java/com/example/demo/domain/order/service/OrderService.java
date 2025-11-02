@@ -3,18 +3,18 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.demo.domain.order.dto.UserDTO;
-import com.example.demo.domain.order.mapper.UserMapper;
+import com.example.demo.domain.order.dto.OrderDTO;
+import com.example.demo.domain.order.mapper.OrderMapper;
 
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @Service
-public class UserService {
+public class OrderService {
 
-    private final UserMapper userMapper;
+    private final OrderMapper userMapper;
     
-    public List<UserDTO> getAllUsers() {
+    public List<OrderDTO> getAllUsers() {
         return userMapper.getAllUsers();
     }
 	
