@@ -16,8 +16,6 @@ public class Interface0001Service {
         Interface0001OrderDTO orderDTO = new Interface0001OrderDTO();
         orderDTO.setOrderId(orderId);
         orderDTO.setCustomerName("홍길동");
-        orderDTO.setOrderDate("2025-11-02");
-        System.out.println("orderDTO:::" + orderDTO);
         
         
         // --------------------------

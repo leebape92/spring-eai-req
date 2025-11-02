@@ -6,7 +6,4 @@ import lombok.Data;
 public class Interface0001OrderDTO {
     private String orderId;
     private String customerName;
-    private String orderDate;
-    
-    
 }
